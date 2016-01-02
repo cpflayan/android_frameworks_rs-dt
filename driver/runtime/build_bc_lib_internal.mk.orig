@@ -24,6 +24,10 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 
 
 include $(BUILD_SYSTEM)/base_rules.mk
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5566c1e... runtime: Remove hardcoded locations for AOSP clang
 BCC_STRIP_ATTR := $(BUILD_OUT_EXECUTABLES)/bcc_strip_attr$(BUILD_EXECUTABLE_SUFFIX)
 
 bc_clang := $(CLANG)
